@@ -14,7 +14,7 @@ const fourthTeacher = teachers[3]; //posso utilizzare anche teachers.at(3)
 console.log ( `${fourthTeacher}` );
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-const fifthTeacher = teachers[4] ="Patrick";
+const fifthTeacher = teachers[4] ="Patrick"; //puoi utilizzare anche splice(4,1, "Patrick")
 console.log ( `${teachers}` )
 
 
